@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Hammersmith+One&display=swap');
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+}
+
+.orangetitulo{
+    background-color: #2B2A28;
+    color: #CF5F09;
+    width: 55%;
+    padding: 25px;
+    font-family: "Aldrich", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+    text-decoration: none;
+    align-items: center;
+}
+
+.orangetitulo2{
+    text-decoration: none;
+    color: #CF5F09;
+}
+
+.orangetitulo3{
+    color: #2B2A28;
+    width: 55%;
+    padding: 25px;
+    font-family: "Aldrich", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+    text-decoration: none;
+    align-items: center;
+
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+.linksepa1{
+    text-decoration: none;
+    color:#CF5F09;
+    display:flex;
+    flex-direction: row;
+    background-color:#2B2A28;
+    justify-content: space-evenly;
+    width: 25%;
+    padding: 35px;
+    font-family: "Aldrich", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+.linksepa2{
+    text-decoration: none;
+    color:#CF5F09;
+    display:flex;
+    flex-direction: row;
+    background-color:#2B2A28;
+    width: 25%;
+    justify-content: space-evenly;
+    padding: 35px;
+    font-family: "Aldrich", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+.linksepa3{
+    text-decoration: none;
+    color:#CF5F09;
+    display:flex;
+    flex-direction: row;
+    background-color:#2B2A28;
+    width: 25%;
+    justify-content: space-evenly;
+    padding: 30px;
+    font-family: "Aldrich", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+.linksepa1:hover{
+    font-size: small;
+}
+
+.linksepa2:hover{
+    font-size: small;
+
+
+ }
+
+ .linksepa3:hover{
+    font-size: small;
+
+
+ }
+
+ .mainprincipal{
+    background-color: #2B2A28;
+    display: flex;
+    
+
+ }
+
+ .textos{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    gap: 20px;
+    padding: 60px 25px 110px ;
+ }
+
+ .paragrafo1{
+    font-family: "Hammersmith One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #8b8282;
+ }
+
+ .paragrafo2{
+    font-family: "Hammersmith One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #8b8282;
+ }
+
+ .subtitulos{
+    display: flex;
+    justify-content: center;
+    color: #CF5F09;
+    width: 90%;
+    padding: 80px 25px 2px 25px;
+    font-family: "Aldrich", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+ }
+
+
+ .foto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #CF5F09;
+    width: 45%;
+    align-content:center;
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    border-radius: 60%;
+    
+ }
+
+ .foto:hover{
+    border-color: #8b8282;
+
+
+
+ }
+
+ .imagem{
+
+    border-radius: 45%;
+ }
