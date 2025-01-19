@@ -1,187 +1,248 @@
 @import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Hammersmith+One&display=swap');
 
 
-*{
-    padding: 0%;
-    margin: 0%;
+:root{
+    --cor-primaria:#CF5F09;
+    --cor-segundaria:#2B2A28;
+    --cor-tercearia: #8b8282;
+
+    --fonte-titulos: "Aldrich", serif;
+
+}
+
+.central{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #2B2A28;
+    width: 100%;
+    height: 100%;
+    
+
+
 }
 .cabecalho{
     display: flex;
-    flex-direction: row;
+    background-color: var(--cor-segundaria);
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 45%;
+
 }
 
 .orangetitulo{
-    background-color: #2B2A28;
-    color: #CF5F09;
-    width: 55%;
-    padding: 25px;
-    font-family: "Aldrich", serif;
+    display: flex;
+    background-color: var(--cor-segundaria);
+    color: var(--cor-primaria);
+    width: auto;
+    padding: 20 px;
+    font-family: var(--fonte-titulos);
     font-weight: 600;
     font-style: normal;
-    font-size: 22px;
+    font-size: 1.4rem;
     text-decoration: none;
     align-items: center;
+    justify-content: space-around;
+
 }
 
 .orangetitulo2{
     text-decoration: none;
-    color: #CF5F09;
-}
-
-.orangetitulo3{
-    color: #2B2A28;
-    width: 55%;
-    padding: 25px;
-    font-family: "Aldrich", serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 22px;
-    text-decoration: none;
-    align-items: center;
-
+    color: var(--cor-primaria);
 }
 
 .links{
     display: flex;
-    justify-content: space-between;
-    width: 45%;
-}
-.linksepa1{
+    width: auto;
     text-decoration: none;
-    color:#CF5F09;
-    display:flex;
-    flex-direction: row;
-    background-color:#2B2A28;
-    justify-content: space-evenly;
-    width: 25%;
-    padding: 35px;
-    font-family: "Aldrich", serif;
+
+}
+.botoes{
+    text-decoration: none;
+    color: var(--cor-primaria);
+    background-color:var(--cor-segundaria);
+    justify-content: flex-start;
+    width: auto;
+    padding: 33px;
+    font-family: var(--fonte-titulos);
     font-weight: 600;
     font-style: normal;
-    font-size: 16px;
+    font-size: 1rem;
     align-items: center;
     text-decoration: none;
 
 }
 
-.linksepa2{
-    text-decoration: none;
-    color:#CF5F09;
-    display:flex;
-    flex-direction: row;
-    background-color:#2B2A28;
-    width: 25%;
-    justify-content: space-evenly;
-    padding: 35px;
-    font-family: "Aldrich", serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 16px;
-    align-items: center;
-    text-decoration: none;
 
+.botoes:hover{
+    font-size:large;
 }
 
-.linksepa3{
-    text-decoration: none;
-    color:#CF5F09;
-    display:flex;
-    flex-direction: row;
-    background-color:#2B2A28;
-    width: 25%;
-    justify-content: space-evenly;
-    padding: 30px;
-    font-family: "Aldrich", serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 16px;
-    align-items: center;
-    text-decoration: none;
 
-}
-
-.linksepa1:hover{
-    font-size: small;
-}
-
-.linksepa2:hover{
-    font-size: small;
-
-
- }
-
- .linksepa3:hover{
-    font-size: small;
-
-
- }
 
  .mainprincipal{
-    background-color: #2B2A28;
+    background-color: var(--cor-segundaria);
     display: flex;
-    
-
+    width: 100%;    
+    justify-content: space-evenly;
  }
 
  .textos{
     display: flex;
     flex-direction: column;
-    width: 55%;
-    gap: 20px;
-    padding: 60px 25px 110px ;
+    width: 60%;
+    gap: 25px;
  }
 
  .paragrafo1{
     font-family: "Hammersmith One", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 16px;
-    color: #8b8282;
+    font-size: 1rem;;
+    color: var(--cor-tercearia);
  }
 
  .paragrafo2{
     font-family: "Hammersmith One", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 16px;
-    color: #8b8282;
+    font-size: 1rem;
+    color: var(--cor-tercearia);
  }
 
  .subtitulos{
     display: flex;
     justify-content: center;
-    color: #CF5F09;
-    width: 90%;
-    padding: 80px 25px 2px 25px;
+    color: var(--cor-primaria);
     font-family: "Aldrich", serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 18px;
+    font-size: 1.2rem;
  }
 
 
  .foto{
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
-    background-color: #CF5F09;
-    width: 45%;
-    align-content:center;
-    padding: 0px 0px 0px 0px;
-    margin: 0px;
-    border-radius: 60%;
+    width: auto;
+    align-items: center;
+    width: auto;
+    gap: 20px;
+    justify-content: center;
     
  }
 
- .foto:hover{
-    border-color: #8b8282;
 
-
-
- }
 
  .imagem{
-
-    border-radius: 45%;
+    width: auto;
+    height: 520px;
  }
+ 
+
+.rodape{
+    width: auto;
+    background-color: #8b8282;
+    justify-items: center;
+
+}
+
+.orangetitulo4{
+    color: var(--cor-segundaria);
+    font-family: var(--fonte-titulos);
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1rem;
+   
+}
+.orangetitulo5{
+    color: var(--cor-tercearia);
+    font-family: var(--fonte-titulos);
+    font-weight: 800;
+    font-style: normal;
+    font-size: 0.95rem;
+    align-items: center;
+   
+}
+
+.redes{
+    display: flex;
+    width: auto;
+    gap: 50px;
+    padding: 10px;
+}
+
+.redes:hover{
+  font-size: x-large;
+
+
+}
+
+.tituloplan{
+    color: var(--cor-primaria);
+    font-family: "Aldrich", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.4rem;
+    align-items: center;
+}
+
+.paragrafoplan{
+    font-family: "Hammersmith One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4rem;;
+    color: var(--cor-primaria);
+    align-items: center;
+
+
+}
+
+.planos{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.fotoplan{
+    padding: 15px 210px 30px 15px;
+    display: flex;
+    gap: 30%;
+
+}
+
+.textofoto{
+    display: flex;
+    width: auto;
+    justify-content: center;
+    line-height: 35px;
+    padding: 15px 210px 30px 305px;
+    gap: 12%;
+
+
+
+
+}
+
+.titulofoto{
+    display: flex;
+    gap: 25%;
+    justify-content: center;
+    width: 100%;
+
+
+}
+
+.central2{
+
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #2B2A28;
+    width: auto;
+    height: auto;
+}
+
